@@ -1,0 +1,40 @@
+body {
+    width: 800px;
+    margin: 0px auto;
+}
+
+.postBox {
+    border-bottom: 1px dashed #cccccc;
+    margin-bottom: 40px;
+}
+
+.post_user_name {
+    font-weight: bold;
+    text-align: left;
+}
+
+.post_user_email {
+    font-size: 12px;
+    text-align: left;
+}
+
+.post_date {
+    font-size: 10px;
+    float: right;
+}
+
+.postFormBox {
+
+}
+
+.postFormFields {
+    margin: 10px 0px;
+}
+
+.postFormFields .input-group {
+    margin: 10px 0px;
+}
+
+.postFormButtons button{
+
+}
