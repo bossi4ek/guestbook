@@ -6,7 +6,7 @@ showAllPost = function(page) {
         type: "POST",
         data: ({
             action: "showAllPostAjax",
-            page:   page == undefined ? 0 : page
+            page:   (page == undefined || page < 0) ? 0 : page
         }),
         dataType: "html",
         success: function(response){
