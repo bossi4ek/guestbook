@@ -311,7 +311,7 @@
             $this->query_time = microtime(1) - $time;
             $time = microtime(1) - $time;
             
-            unset($this->query_table);
+            $this->query_table = array();
             while ($row = mysql_fetch_assoc($result)) {
                 $this->query_table[] = $row;
             }

@@ -21,6 +21,21 @@ body {
 .post_date {
     font-size: 10px;
     float: right;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.post_head {
+    padding: 5px;
+}
+
+.post_body {
+    padding: 5px;
+}
+
+.post_delete {
+    float: right;
+    cursor: pointer;
 }
 
 .postFormBox {
@@ -36,5 +51,20 @@ body {
 }
 
 .postFormButtons button{
+    margin-bottom: 10px;
+}
 
+#bottom_alert {
+    position: absolute;
+    top: 0px;
+    z-index: 1000;
+    padding-right: 25px;
+    margin-top: 0px;
+    display: none;
+    float: right;
+    right: 0px;
+}
+
+.pagination_ajax li{
+    cursor: pointer;
 }

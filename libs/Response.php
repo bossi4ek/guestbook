@@ -1,6 +1,7 @@
 <?php
 
 class Response {
+
     public $data = array();
 
     public function __construct($name_data, $data, $template)
